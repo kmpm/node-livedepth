@@ -1,0 +1,27 @@
+{
+  "name": "livedepth",
+  "version": "1.0.0",
+  "description": "bathymetry experiments in nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-dev": "nodemon -i public app.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "debug": "^2.6.8",
+    "express": "^4.15.3",
+    "jimp": "^0.2.28",
+    "pureimage": "0.0.21",
+    "simple-statistics": "^4.1.0",
+    "sl2format": "^0.1.0",
+    "through2": "^2.0.3",
+    "turf": "^3.0.14",
+    "uuid": "^3.1.0"
+  },
+  "devDependencies": {
+    "connect-livereload": "^0.6.0",
+    "livereload": "^0.6.2"
+  }
+}
